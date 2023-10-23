@@ -1,7 +1,13 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: aliceblue;
+    background-color: #4dafaa;
 }
 
 head {
     font-family: "Roboto", sans-serif;
+}
+
+.jumbotron {
+    background-color: #3d5761;
 }
