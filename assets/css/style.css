@@ -1,8 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
-<<<<<<< HEAD
     color: aliceblue;
-    background-color: #4dafaa;
+    background-color: #4dafaa; /*background-color by Jody*/
 }
 
 head {
@@ -11,8 +10,6 @@ head {
 
 .jumbotron {
     background-color: #3d5761;
-=======
-    /*background-color by Jody*/
 }
 
 /* Whenever bootstrap overrides something we don't want to be overwritten,
@@ -20,5 +17,4 @@ head {
    elements (using th3 '#').*/
 #bootstrap-override {
     background-color: aqua;
->>>>>>> 9b3b6b3 (Changed css to work with bootstrap and added a navigation menu (bar) to the home page (index.html))
 }
