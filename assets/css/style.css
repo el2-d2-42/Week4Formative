@@ -14,7 +14,12 @@ head {
 
 /* Whenever bootstrap overrides something we don't want to be overwritten,
    we need to create id's for certain elements or even specific 
-   elements (using th3 '#').*/
+   elements (using th3 '#'). #cbdce0 -> Nice colour?*/
 #bootstrap-override {
-    background-color: aqua;
+    background-color: beige;
+    color: black;
+}
+
+#bootstrap-override-navbar {
+    background-color: white;
 }
