@@ -6,6 +6,11 @@ head {
     font-family: "Roboto", sans-serif;
 }
 
+#img-emanuel {
+    max-width: 50%;
+    height: auto;
+}
+
 /* Whenever bootstrap overrides something we don't want to be overwritten,
    we need to create id's for certain elements or even specific 
    elements (using th3 '#'). #cbdce0 -> Nice colour?*/ /* #4dafaa; background-color by Jody - Used for top bar colour*/
