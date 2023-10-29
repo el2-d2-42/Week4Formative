@@ -11,6 +11,25 @@ head {
     height: auto;
 }
 
+.column {
+    float: left;
+    padding: 30px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.c-text-left {
+    width: 80%;
+}
+  
+.c-img-right {
+    width: 20%;
+}
+
 /* Whenever bootstrap overrides something we don't want to be overwritten,
    we need to create id's for certain elements or even specific 
    elements (using th3 '#'). #cbdce0 -> Nice colour?*/ /* #4dafaa; background-color by Jody - Used for top bar colour*/
